@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='style-switcher.css'>
+
+   
     
+    <script src="https://kit.fontawesome.com/8955b8a194.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="color1.css">
+
+     <link rel="stylesheet" type="text/css" class="alternate-style" title="color1" href="color1.css" >
+     <link rel="stylesheet" type="text/css" class="alternate-style" title="color2" href="color2.css" disabled>
+     <link rel="stylesheet" type="text/css" class="alternate-style" title="color3" href="color3.css" disabled>
+     <link rel="stylesheet" type="text/css" class="alternate-style" title="color4" href="color4.css" disabled>
+
+
+</head>
+
+<body>
+
+      <!--- style switcher start - for demo purposes only-->
+    <div class="style-switcher">
+
+    <div class="style-switcher-toggler s-icon">
+
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon ">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <button> connexion</button>
+    <button>deconnexion</button>
+
+    <h4>Theme Color</h4>
+
+    <div class="colors">
+    <span class="color1" onclick="setActiveStyle('color1')"></span>
+    <span class="color2" onclick="setActiveStyle('color2')"></span>
+    <span class="color3" onclick="setActiveStyle('color3')"></span>
+    <span class="color4" onclick="setActiveStyle('color4')"></span>
+
+
+    </div>
+
+
+</div>
+
+<!--- style switcher end - for demo purposes only
+    
+    
+
+    <header class="header">
+        <div class="container">
+            <div class ="row justify-content-between">
+                <div class="logo">
+                    <a href="index.html"> w </a>
+    
+                </div>
+                    <div class="hamburger-btn outer-shadow hover-in-shadow">
+                        <span> </span>
+                    </div>
+            </div>
+    
+        </div>
+    </header>
+
+-->
+
+    <!--navigation menu start 
+    <nav class="nav-menu">
+    <div class="close-nav-menu">&times;</div>
+    <div class="nav-menu-inner outer-shadow hover-in-shadow">
+        <ul>
+            <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+            <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
+            <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
+            <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
+            <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a></li>
+            <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+           
+        
+        </ul>
+
+    </div>
+    </nav>
+
+-->
+    <div class="fade-out-effect"></div>
+
+
+
+     Menu parametre
+    <div class="parametre"> 
+        <a href="#" class="param"></a>
+        <i class="fas fa-gear"></i>
+         
+
+
+    </div>
+
+
+   
+    <section class="principal">
+
+    <div class="page"><div class ="titre"></div></div>
+    
+    <div class="page1">
+         <div class="leader-board"> </div>
+         <div class="carte"></div>
+         <div class="des-roll"></div>
+
+    </div>
+
+    <div class="page2"><div class="jeu-advs"></div></div>
+
+    </section>
+
+
+  
+
+    <footer> 
+
+        <center>
+            <span class="credit">Created By <a href=#>Rayan, Kenny, Pauline, Zineb</a> | </span>
+            <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+          </center>
+
+    </footer>
+
+    <script src='main.js'></script>
+    <script src='style-switcher.js'></script>
+
 </body>
 </html>
